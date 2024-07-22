@@ -85,7 +85,7 @@ const Checkout = ({ totalPrice }) => {
               </form>
             </div>
             <div className="col-lg-6 col-md-6">
-              <form action="#">
+              <form  onSubmit={handleCheckout}>
                 <h3>Your order</h3>
                 <div className="order_table table-responsive">
                   <table>
